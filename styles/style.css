@@ -11,14 +11,15 @@ body{
 /* banner section styles */
 .banner-section{
     max-width: 1440px;
-    min-height: 715px;
+    /* min-height: 715px; */
     margin: 0 auto;
-    border: 2px solid red;
+    border: 1px solid black;
     background: linear-gradient(180.00deg, rgba(17, 17, 17, 0.897),rgb(17, 13, 13) 100%);
 }
+/* navbar section */
 .navbar-section{
     max-width: 1060px;
-    min-height: 46px;
+    /* min-height: 46px; */
     margin: 0 auto;
     margin-top: 57px;
     display: flex;
@@ -30,10 +31,10 @@ body{
     font-weight: 800;
 }
 .navbar{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border: 1px solid rgba(255, 255, 255, 0.068);
     border-radius: 39px;
-    padding: 0 7px 0 0;
+    padding: 0 25px 0 0;
     color: white;
     display: flex;
     align-items: center;
@@ -49,7 +50,8 @@ body{
     font-size: 1.125rem;
     font-weight: 600;
     width: 92px;
-    height: 100%;
+    height: 90%;
+    margin-left: 3px;
     border: none;
     border-radius: 46px;
     background: rgb(230, 83, 60);
@@ -57,23 +59,21 @@ body{
 .bars{
     display: none;
 }
-/* banner section styles */
+/* banner section */
 .banner-container{
     max-width: 1060px;
     margin: 0 auto;
-    border: 2px solid red;
     display: flex;
     gap: 50px;
     margin-top: 97px;
 }
 .banner-content{
     max-width: 600px;
-    border: 2px solid red;
 }
 .banner-content h2{
     color: rgb(255, 255, 255);
     font-size: 4.87rem;
-    font-weight: 900;
+    font-weight: 800;
     margin-bottom: 28px;
 }
 .banner-content p{
@@ -100,41 +100,39 @@ body{
 }
 .banner-img{
     position: relative;
-    border: 2px solid red;
+    margin-left: 90px;
 }
 .banner-img img{
     width: 100%;
 }
 #download{
     color: white;
-    background-color: black;
+    background-color: rgba(17, 17, 17, 0.897);
+    border: 1px solid white;
+    margin-left: 10px;
 }
 /* habits section styles  */
 .habit-section-container{
     max-width: 1440px;
-    min-height: 950px;
     margin: 0 auto;
-    border: 2px solid red;
+    border: 1px solid black;
     background-color: black;
 }
 /* habit part styles */
 .habit-part{
     max-width: 1044px;
-    min-height: 452px;
     margin: 0 auto;
     margin-top: 100px;
-    border: 2px solid red;
     background: rgb(0, 0, 0);
 }
 .habit-section-content{
     max-width: 671px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 .habit-section-content h3{
     color: rgb(255, 255, 255);
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 800;
     text-align: center;
 }
 .habit-section-content p{
@@ -150,7 +148,6 @@ body{
 }
 .habit-card-container{
     max-width: 230px;
-    border: 2px solid red;
     margin-top: 58px;
 }
 .habit-card-container h5{
@@ -158,6 +155,7 @@ body{
     font-size: 1.125rem;
     font-weight: 600;
     text-align: center;
+    margin-top: 30px;
 }
 .habit-section-container p{
     color: rgba(255, 255, 255, 0.5);
@@ -177,9 +175,7 @@ body{
 /* ran part styles */
 .ran-part{
     max-width: 1060px;
-    min-height: 370px;
     margin: 0 auto;
-    border: 2px solid red;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     margin-top: 100px;
@@ -188,17 +184,15 @@ body{
 }
 .ran-part-content{
     max-width: 443px;
-    min-height: 290px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0 14px;
+    margin: 40px 0px 30px 45px;
 }
 .ran-part-content h3{
     color: rgb(255, 255, 255);
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 800;
 }
 .ran-part-content p{
     color: rgba(255, 255, 255, 0.5);
@@ -220,30 +214,48 @@ body{
 }
 .ran-part-img{
     max-width: 366px;
-    min-height: 310px;
-    border: 2px solid red;
     border-radius: 18px;
     display: flex;
     align-items: center;
-    margin: 0 14px;
+    margin: 0px 25px 0px 0px;
 }
 .ran-part-img img{
     width: 100%;
-    height: 80%;
+    height: 85%;
+    border-radius: 18px;
 }
 /* calculate section styles */
+.bmi-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: black;
+}
+.bmi-content{
+    max-width: 670px;
+    margin: 0 auto;
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+.bmi-content h4{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 800;
+}
+.bmi-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 15px;
+}
 .calculate-section-container{
     max-width: 1440px;
-    min-height: 490px;
     margin: 0 auto;
-    border: 2px solid red;
     background-color: rgb(34, 34, 34);
     display: flex;
 }
 .calculate-table-section{
     width: 50%;
-    min-height: 490px;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,49 +264,99 @@ body{
 .calculate-table-section h4{
     color: rgb(255, 255, 255);
     font-size: 1.75rem;
-    font-weight: 900;
+    font-weight: 800;
+    margin-bottom: 50px;
 }
 table{
-    max-width: 310px;
-    min-height: 215px;
+    width: 410px;
+    min-height: 250px;
     border-collapse: collapse;
     color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 75px;
 }
 td, th{
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
     padding: 5px 10px;
 }
+th{
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+}
 .calculate-input-section{
     width: 50%;
-    min-height: 490px;
-    border: 2px solid red;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 60px;
 }
+.calculate-input-section h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 800;
+}
+.calculate-input-section p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.calculate-input-section input, select{
+    width: 45%;
+    height: 48px;
+    border: none;
+    margin: 10px 5px 10px 0px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.calculate-input-section select{
+    color: rgba(255, 255, 255, 0.6);
+}
+.input-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 37px;
+}
+.select-activity select{
+    color: rgba(255, 255, 255, 0.6);
+    width: 91%;
+}
+.calculate-input-section button{
+    width: 224px;
+    height: 54px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    background: rgb(230, 83, 60);
+}
+
 /* meet section styles */
 .meet-section-container{
     max-width: 1440px;
-    min-height: 980px;
     margin: 0 auto;
-    border: 2px solid red;
+    border: 1px solid black;
     background-color: black;
 }
 .meet-section{
     max-width: 1060px;
-    min-height: 780px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .meet-section-content{
     max-width: 670px;
     margin: 0 auto;
-    border: 2px solid red;
     margin-bottom: 48px;
 }
 .meet-section-content h3{
     color: rgb(255, 255, 255);
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 800;
     text-align: center;
 }
 .meet-section-content p{
@@ -302,23 +364,21 @@ td, th{
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
-    margin-top: 14px;
-}
-.meet-section-img img{
-    width: 100%;
-    border-radius: 18px;
-}
-.meet-card img{
-    height: 250px;
+    margin-top: 24px;
 }
 .meet-section-img{
-    color: rgba(0, 0, 0, 0.2);
+    max-width: 1060px;
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 18px;
-    margin: 0px 20px;
     padding: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px 20px;
+    grid-gap: 20px;
+}
+.meet-section-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
 }
 .trainer-name{
     margin-top: -70px;
@@ -338,43 +398,38 @@ td, th{
 /* footer section styles */
 .footer-section{
     max-width: 1440px;
-    min-height: 490px;
     margin: 0 auto;
-    border: 2px solid red;
-    background-color: black;
+    border: 1px solid black;
+    background-color: rgb(20, 18, 18);
 }
 .footer-section-container{
     max-width: 1440px;
     margin: 0 auto;
-    border: 2px solid red;
-    background-color: rgba(255, 255, 255, 0.1);
     display: flex;
     justify-content: space-between;
     margin: 66px 191px 100px 190px;
 }
 .footer-first-part{
     max-width: 445px;
-    min-height: 175px;
-    border: 2px solid red;
 }
 .footer-first-part h4{
     color: rgb(230, 83, 60);
     font-size: 4.37rem;
     font-weight: 800;
+    margin-top: 15px;
     margin-bottom: 20px;
 }
 .footer-first-part p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
+    line-height: 30px;
 }
 .footer-second-part{
     max-width: 515px;
-    min-height: 250px;
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 150px;
 }
 .footer-second-part h4{
     color: rgb(255, 255, 255);
@@ -390,9 +445,10 @@ td, th{
 }
 hr{
     max-width: 1060px;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0);
+    opacity: 0.3;
     margin: 0 auto;
-    margin-bottom: 95px;
+    margin-bottom: 40px;
 }
 .copyright{
     color: rgba(255, 255, 255, 0.5);
@@ -427,21 +483,104 @@ hr{
      }
      .banner-container{
         flex-direction: column;
-        margin: 20px;
+        margin: 30px;
         margin-top: 40px;
+     }
+     .banner-content h2{
+        font-size: 2.5rem;
+        font-weight: 1000;
      }
      .btn-1{
         display: flex;
+     }
+     .habit-part{
+        margin-top: 0px;
+     }
+     .habit-section-content{
+        margin: 0px 30px;
+     }
+     .habit-section-content h3{
+        font-size: 2.2rem;
+        font-weight: 800;
+        margin-bottom: 20px;
      }
      .habit-section-card{
         flex-direction: column;
         align-items: center;
      }
-     .ran-part{
+    .habit-card-container h5{
+        margin-top: 40px;
+    }
+    .ran-part{
         flex-direction: column;
-     }
-     .ran-part-content button{
-     }
+        margin: 40px 30px 0px 30px;
+        padding: 10px;
+    }
+    .ran-part-content{
+        margin: 20px;
+    }
+    .ran-part-content h3{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    .ran-part-content p{
+        margin-bottom: 30px;
+        font-size: 0.9rem;
+    }
+    #btn-3{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .ran-part-img{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .bmi-content{
+        margin: 30px;
+    }
+    .bmi-content h4{
+        font-size: 2rem;
+    }
+    .calculate-section-container{
+        flex-direction: column;
+    }
+    .calculate-table-section{
+        width: 100%;
+    }
+     table{
+        width: 330px;
+        margin-right: 30px;
+    }
+    .calculate-table-section h4{
+        margin: 30px 130px 25px 0px;
+        font-size: 1.4rem;
+    }
+    .calculate-input-section{
+        width: 100%;
+    }
+    .calculate-input-section
+
+    
+    .calculate-input-section h3{
+        font-size: 1.4rem;
+    }
+    .calculate-input-section p{
+        margin-right: 30px;
+    }
+    .calculate-input-section input, select{
+        width: 40%;
+        height: 48px;
+        margin: 8px;
+    }
+    .select-activity{
+        width: 92%;
+    }
+    .calculate-input-section button{
+        margin-left: 5px;
+    }
+
      .meet-section-img{
         grid-template-columns: repeat(1, 1fr);
      }
