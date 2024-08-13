@@ -465,6 +465,98 @@ th{
     font-size: 1rem;
     font-weight: 400;
 }
+
+/* challenge section styles */
+.challenge-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* background-image: linear-gradient(#100f0fd2, #0e0c0cd2), url(../images/challenge-img.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    background-color: black;
+}
+.challenge-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.challenge-content h2{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+}
+.challenge-content p{
+    width: 70%;
+    margin: 20px auto;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+}
+.challenge-content button{
+    width: 224px;
+    height: 54px;
+    color: white;
+    border-radius: 42px;
+    background-color: rgba(17, 17, 17, 0.415);
+    border: 1px solid white;
+}
+.discount{
+    position: absolute;
+    left: 85%;
+    top: 0%;
+    display: none;
+}
+.challenge-section :hover .discount{
+    display: block;
+}
+.discount p{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.discount h4{
+    color: white;
+    font-size: 2rem;
+    margin-left: 55px;
+}
+.challenge-content img{
+    width: 60%;
+    margin-left: 45px;
+}
+.challenge-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.challenge-card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.challenge-card img{
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.challenge-card button{
+    width: 224px;
+    height: 54px;
+    border: none;
+    margin: 20px 0px 30px 0px;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+    background: rgb(230, 83, 60);
+}
 /* footer section styles */
 .footer-section{
     max-width: 1440px;
@@ -701,6 +793,19 @@ hr{
     .meet-section-content h3{
         font-size: 2.5rem;
         font-weight: 800;
+    }
+    .challenge-card-container{
+        flex-direction: column;
+    }
+    .challenge-section :hover .discount{
+        display: none;
+    }
+    .challenge-card{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .challenge-card button{
+        margin-bottom: 20px;
     }
      .footer-section-container{
         flex-direction: column;
