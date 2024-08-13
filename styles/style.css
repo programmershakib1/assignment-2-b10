@@ -111,7 +111,7 @@ html{
     width: 100%;
 }
 .first-shape{
-    width: 190px;
+    width: 170px;
     height: 98px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -135,7 +135,7 @@ html{
     margin-left: 23px;
 }
 .second-shape{
-    width: 200px;
+    width: 190px;
     height: 96px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -194,13 +194,13 @@ html{
     font-size: 3rem;
     font-weight: 800;
     text-align: center;
+    margin-bottom: 30px;
 }
 .habit-section-content p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
-    margin-top: 14px;
 }
 .habit-section-card{
     display: flex;
@@ -465,12 +465,14 @@ th{
     font-size: 1rem;
     font-weight: 400;
 }
-
+.hidden{
+    display: none;
+}
 /* challenge section styles */
 .challenge-section{
     max-width: 1440px;
     margin: 0 auto;
-    /* background-image: linear-gradient(#100f0fd2, #0e0c0cd2), url(../images/challenge-img.jpg); */
+    background-image: linear-gradient(#070707e5, #090808e3), url(../images/challenge-img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -652,24 +654,48 @@ hr{
         gap: 20px;
      }
      .banner-content h2{
-        font-size: 2.5rem;
-        font-weight: 1000;
+        width: 70%;
+        font-size: 2rem;
+        line-height: 50px;
      }
+     #shape{
+        font-size: 5rem;
+    }
      .btn-1{
         display: flex;
         margin-bottom: 20px;
      }
      .first-shape{
-        width: 170px;
+        width: 150px;
+        height: 85px;
         top: 10%;
         left: 55%;
      }
     .second-shape{
+        width: 180px;
+        height: 85px;
         top: 43%;
-        left: -1%;
+        left: 5%;
     }
     .play{
         display: block;
+    }
+    .first-shape h2{
+        font-size: 2rem;
+        font-weight: 800;
+        margin: 10px 0px px 23px;
+    }
+    .first-shape p{
+        font-size: .7rem;
+        font-weight: 400;
+        margin-left: 23px;
+    }
+    .second-shape h2{
+        font-size: 1.4rem;
+        margin-bottom: 8px;
+    }
+    .circle{
+        margin: 0px 10px 0px 13px;
     }
     .habit-section{
         position: relative;
@@ -740,14 +766,18 @@ hr{
         width: 100%;
     }
      table{
-        width: 330px;
-        margin: 0px 30px 50px 0px;
+        width: 300px;
+        min-height: 240px;
+        margin: 0px 55px 50px 0px;
+    }
+    td, th{
+        padding: 10px 14px;
     }
     th{
-        padding: 15px 20px 15px 30px;
+        padding: 13px 14px;
     }
     .calculate-table-section h4{
-        margin: 30px 130px 25px 0px;
+        margin: 30px 130px 25px 7px;
         font-size: 1.4rem;
     }
     .calculate-input-section{
@@ -772,12 +802,11 @@ hr{
         margin: 8px;
     }
     .select-activity{
-        width: 97%;
+        width: 97.5%;
     }
     .calculate-input-section button{
-        margin: 30px 0px 45px 25px;
+        margin: 30px 0px 43px 25px;
     }
-
      .meet-section-img{
         grid-template-columns: repeat(1, 1fr);
      }
@@ -793,6 +822,15 @@ hr{
     .meet-section-content h3{
         font-size: 2.5rem;
         font-weight: 800;
+    }
+    .hidden{
+        display: block;
+    }
+    .hidden2{
+        display: none;
+    }
+    .challenge-section{
+        background-image: none;
     }
     .challenge-card-container{
         flex-direction: column;
@@ -828,6 +866,6 @@ hr{
      }
      .copyright{
         text-align: left;
-        margin: 0px 0px 70px 30px;
+        margin: 0px 0px 60px 30px;
      }
 }
