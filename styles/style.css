@@ -316,6 +316,8 @@ html{
     max-width: 1440px;
     margin: 0 auto;
     background-color: rgb(34, 34, 34);
+}
+.calculate-section-container{
     display: flex;
 }
 .calculate-table-section{
