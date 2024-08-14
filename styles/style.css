@@ -574,6 +574,11 @@ th{
     font-weight: 800;
     margin: 20px 0px;
 }
+.contact hr{
+    max-width: 600px;
+    color: rgb(255, 255, 255);
+    margin: 30px auto;
+}
 .contact img{
     margin: 10px 10px 30px 10px;
 }
@@ -774,7 +779,7 @@ hr{
         margin-bottom: 20px;
     }
     .bmi-content{
-        margin: 30px;
+        margin: 30px 30px 30px 25px;
         margin-top: 0px;
     }
     .bmi-content h4{
@@ -788,13 +793,13 @@ hr{
         width: 100%;
     }
     .calculate-table-section h4{
-        margin: 30px 85px 25px 0px;
+        margin: 30px 120px 25px 0px;
         font-size: 1.4rem;
     }
      table{
         max-width: 80%;
         min-height: 240px;
-        margin: 0px 30px 50px 0px;
+        margin: 0px 60px 50px 0px;
     }
     td, th{
         padding: 10px 14px;
@@ -807,27 +812,24 @@ hr{
         width: 100%;
         margin: 0px;
     }
-    .input-section-container{
-        margin-left: 20px;
-    }
     .input-section{
-        margin: 37px 15px 0px 0px;
+        margin: 37px 0px 0px 0px;
     }
     .calculate-input-section h3{
         font-size: 1.4rem;
-        margin-left: 25px;
+        margin-left: 15px;
     }
     .calculate-input-section p{
         margin-right: 30px;
-        margin-left: 25px;
+        margin-left: 15px;
     }
     .calculate-input-section input, select{
         width: 45%;
         height: 48px;
-        margin: 7px;
+        margin: 7px 0px 7px 14px;
     }
     .select-activity{
-        width: 96%;
+        width: 100%;
     }
     .calculate-input-section button{
         margin: 30px 0px 43px 25px;
@@ -870,6 +872,9 @@ hr{
     }
     .challenge-card button{
         margin-bottom: 20px;
+    }
+    .contact hr{
+        max-width: 300px;
     }
      .footer-section-container{
         flex-direction: column;
