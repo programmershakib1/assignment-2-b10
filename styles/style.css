@@ -15,7 +15,7 @@ html{
     max-width: 1440px;
     margin: 0 auto;
     border: 1px solid black;
-    background-image: linear-gradient(to bottom, rgba(2, 2, 2, 0.903) 20%, rgba(14, 12, 12, 0.897)70%, rgb(2, 2, 2) 100%);
+    background-image: linear-gradient(to bottom, rgba(2, 2, 2, 0.894) 20%, rgba(14, 12, 12, 0.897)60%, rgb(2, 2, 2) 100%);
 }
 /* navbar section */
 .navbar-section{
@@ -74,13 +74,13 @@ html{
     font-size: 4.87rem;
     font-weight: 800;
     margin-bottom: 28px;
-    line-height: 90px;
+    line-height: 80px;
 }
 #shape{
     font-family: miama;
     color: rgb(255, 255, 255);
     font-size: 7.87rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 .banner-content p{
     color: rgba(255, 255, 255, 0.5);
@@ -111,7 +111,7 @@ html{
     width: 100%;
 }
 .first-shape{
-    width: 170px;
+    width: 180px;
     height: 98px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -231,6 +231,7 @@ html{
 .habit-card-img img{
     align-items: center;
     border-radius: 50%;
+    border: 4px solid rgba(71, 61, 61, 0.5);
 }
 /* ran part */
 .ran-part{
@@ -380,7 +381,7 @@ th{
     width: 45%;
     height: 48px;
     border: none;
-    margin: 10px;
+    margin: 7px;
     padding: 12px 40px 12px 20px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
@@ -390,13 +391,12 @@ th{
 }
 .select-activity select{
     color: rgba(255, 255, 255, 0.6);
-    width: 93.5%;
+    width: 92.5%;
 }
 .calculate-input-section button{
     width: 224px;
     height: 54px;
-    margin-top: 30px;
-    margin-left: 10px;
+    margin: 25px 0px 30px 10px;
     border: none;
     border-radius: 42px;
     color: rgb(255, 255, 255);
@@ -437,6 +437,7 @@ th{
     font-weight: 400;
     text-align: center;
     margin-top: 24px;
+    margin-bottom: 70px;
 }
 .meet-section-img{
     max-width: 1060px;
@@ -580,14 +581,14 @@ th{
     margin: 30px auto;
 }
 .contact img{
-    margin: 10px 10px 30px 10px;
+    margin: 10px 10px 50px 10px;
 }
 /* footer section styles */
 .footer-section{
     max-width: 1440px;
     margin: 0 auto;
     border: 1px solid rgb(20, 18, 18);
-    background-color: rgb(20, 18, 18);
+    background-color: rgb(34, 34, 34);
 }
 .footer-section-container{
     max-width: 1440px;
@@ -687,6 +688,9 @@ hr{
      .banner-btn{
         display: flex;
         margin-bottom: 20px;
+     }
+     #club{
+        display: none;
      }
      .first-shape{
         width: 150px;
@@ -829,7 +833,7 @@ hr{
         margin: 7px 0px 7px 14px;
     }
     .select-activity{
-        width: 100%;
+        width: 101%;
     }
     .calculate-input-section button{
         margin: 30px 0px 43px 25px;
