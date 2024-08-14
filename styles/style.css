@@ -15,7 +15,7 @@ html{
     max-width: 1440px;
     margin: 0 auto;
     border: 1px solid black;
-    background-image: linear-gradient(to bottom, rgba(14, 12, 12, 0.897)60%,rgb(2, 2, 2) 100%);
+    background-image: linear-gradient(to bottom, rgba(2, 2, 2, 0.903) 20%, rgba(14, 12, 12, 0.897)70%, rgb(2, 2, 2) 100%);
 }
 /* navbar section */
 .navbar-section{
@@ -76,6 +76,12 @@ html{
     margin-bottom: 28px;
     line-height: 90px;
 }
+#shape{
+    font-family: miama;
+    color: rgb(255, 255, 255);
+    font-size: 7.87rem;
+    font-weight: 400;
+}
 .banner-content p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
@@ -97,12 +103,6 @@ html{
     background-color: rgba(17, 17, 17, 0.897);
     border: 1px solid white;
     margin-left: 10px;
-}
-#shape{
-    font-family: miama;
-    color: rgb(255, 255, 255);
-    font-size: 7.87rem;
-    font-weight: 400;
 }
 .banner-img{
     position: relative;
@@ -158,11 +158,11 @@ html{
     color: rgb(250, 250, 249);
     font-size: 1.5rem;
     font-weight: 800;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 .second-shape p{
     color: rgba(239, 237, 232, 0.65);
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 400;
 }
 .play{
@@ -178,7 +178,7 @@ html{
     border: 1px solid black;
     background-color: black;
 }
-/* habit part styles */
+/* habit part */
 .habit-part{
     max-width: 1044px;
     margin: 0 auto;
@@ -217,7 +217,7 @@ html{
     text-align: center;
     margin-top: 30px;
 }
-.habit-section p{
+.habit-card-container p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
@@ -228,11 +228,11 @@ html{
     display: flex;
     justify-content: center;
 }
-.habit-section-card img{
+.habit-card-img img{
     align-items: center;
     border-radius: 50%;
 }
-/* ran part styles */
+/* ran part */
 .ran-part{
     max-width: 1060px;
     margin: 0 auto;
@@ -287,6 +287,7 @@ html{
     object-position: 66% 31%;
 }
 /* calculate section styles */
+/* bmi part */
 .bmi-container{
     max-width: 1440px;
     margin: 0 auto;
@@ -310,6 +311,7 @@ html{
     font-weight: 400;
     margin-top: 15px;
 }
+/* calculate part */
 .calculate-section{
     max-width: 1440px;
     margin: 0 auto;
@@ -330,8 +332,8 @@ html{
     margin-bottom: 50px;
 }
 table{
-    width: 410px;
-    min-height: 250px;
+    max-width: 55%;
+    min-height: 230px;
     border-collapse: collapse;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 75px;
@@ -339,7 +341,7 @@ table{
 td, th{
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: left;
-    padding: 5px 0px 5px 28px;
+    padding: 5px 10px 5px 20px;
 }
 th{
     color: rgb(255, 255, 255);
@@ -367,6 +369,11 @@ th{
     margin-top: 24px;
     margin-left: 10px;
 }
+.input-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 37px;
+}
 .calculate-input-section input, select{
     width: 45%;
     height: 48px;
@@ -376,16 +383,8 @@ th{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
 }
-::placeholder{
-    color: rgba(255, 255, 255, 0.6);
-  }
 .calculate-input-section select{
     color: rgba(255, 255, 255, 0.6);
-}
-.input-section{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 37px;
 }
 .select-activity select{
     color: rgba(255, 255, 255, 0.6);
@@ -403,7 +402,9 @@ th{
     font-weight: 600;
     background: rgb(230, 83, 60);
 }
-
+::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+  }
 /* meet section styles */
 .meet-section{
     max-width: 1440px;
@@ -476,8 +477,6 @@ th{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border: 2px solid black;
-    background-color: black;
 }
 .challenge-content{
     display: flex;
@@ -504,6 +503,8 @@ th{
 .challenge-content button{
     width: 224px;
     height: 54px;
+    font-size: 1rem;
+    font-weight: 600;
     color: white;
     border-radius: 42px;
     background-color: rgba(17, 17, 17, 0.415);
@@ -563,7 +564,7 @@ th{
 .footer-section{
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid black;
+    border: 1px solid rgb(20, 18, 18);
     background-color: rgb(20, 18, 18);
 }
 .footer-section-container{
@@ -629,11 +630,11 @@ hr{
 
 
 @media screen and (max-width: 576px){
-    body{
-        background-color: black;
-    }
      .navbar{
         display: none;
+     }
+     .nav-content h4{
+        margin-left: 30px;
      }
      .bars{
         margin-right: 30px;
@@ -641,11 +642,11 @@ hr{
         display: block;
         margin-top: 10px;
      }
-     .nav-content h4{
-        margin-left: 30px;
-     }
+     body{
+        background-color: black;
+    }
      .banner-section{
-        background-image: linear-gradient(to bottom, rgba(14, 12, 12, 0.897)60%,rgb(2, 2, 2) 100%) !important;
+        background-image: linear-gradient(to bottom, rgba(51, 46, 46, 0.43) 5%, rgba(38, 33, 33, 0.897)50%, rgb(2, 2, 2) 100%);
      }
      .banner-container{
         flex-direction: column;
@@ -655,13 +656,16 @@ hr{
      }
      .banner-content h2{
         width: 70%;
-        font-size: 2rem;
+        font-size: 2.2rem;
         line-height: 50px;
+     }
+     .banner-content p{
+        width: 90%;
      }
      #shape{
         font-size: 5rem;
     }
-     .btn-1{
+     .banner-btn{
         display: flex;
         margin-bottom: 20px;
      }
@@ -671,11 +675,19 @@ hr{
         top: 10%;
         left: 55%;
      }
+     .first-shape p{
+        font-size: .7rem;
+        font-weight: 400;
+        margin-left: 23px;
+    }
     .second-shape{
         width: 180px;
         height: 85px;
         top: 43%;
         left: 5%;
+    }
+    .circle{
+        margin: 0px 10px 0px 13px;
     }
     .play{
         display: block;
@@ -685,17 +697,9 @@ hr{
         font-weight: 800;
         margin: 10px 0px px 23px;
     }
-    .first-shape p{
-        font-size: .7rem;
-        font-weight: 400;
-        margin-left: 23px;
-    }
     .second-shape h2{
         font-size: 1.4rem;
         margin-bottom: 8px;
-    }
-    .circle{
-        margin: 0px 10px 0px 13px;
     }
     .habit-section{
         position: relative;
@@ -736,12 +740,12 @@ hr{
         margin-bottom: 30px;
         font-size: 0.9rem;
     }
-    .ran-part-img img{
-        object-fit: cover;
-    }
-    #btn-3{
+    #ran-btn{
         width: 100%;
         margin: 0 auto;
+    }
+    .ran-part-img img{
+        object-fit: cover;
     }
     .ran-part-img{
         width: 90%;
@@ -762,27 +766,37 @@ hr{
     .calculate-section{
         flex-direction: column;
     }
+    .calculate-section-container{
+        margin: 0 10px;
+    }
     .calculate-table-section{
         width: 100%;
     }
+    .calculate-table-section h4{
+        margin: 30px 85px 25px 0px;
+        font-size: 1.4rem;
+    }
      table{
-        width: 300px;
+        max-width: 80%;
         min-height: 240px;
-        margin: 0px 55px 50px 0px;
+        margin: 0px 30px 50px 0px;
     }
     td, th{
         padding: 10px 14px;
     }
     th{
         padding: 13px 14px;
-    }
-    .calculate-table-section h4{
-        margin: 30px 130px 25px 7px;
-        font-size: 1.4rem;
+        font-weight: 400;
     }
     .calculate-input-section{
         width: 100%;
         margin: 0px;
+    }
+    .input-section-container{
+        margin-left: 20px;
+    }
+    .input-section{
+        margin: 37px 15px 0px 0px;
     }
     .calculate-input-section h3{
         font-size: 1.4rem;
@@ -792,28 +806,18 @@ hr{
         margin-right: 30px;
         margin-left: 25px;
     }
-    .input-select{
-        margin-left: 20px;
-    }
     .calculate-input-section input, select{
-        width: 43.5%;
+        width: 45%;
         height: 48px;
-        margin: 0 auto;
         margin: 8px;
     }
     .select-activity{
-        width: 97.5%;
+        width: 97%;
     }
     .calculate-input-section button{
         margin: 30px 0px 43px 25px;
     }
-     .meet-section-img{
-        grid-template-columns: repeat(1, 1fr);
-     }
-     #img-none{
-        display: none;
-     }
-     .meet-section-container{
+    .meet-section-container{
         margin: 50px 20px 70px 20px;
     }
     .meet-section-content{
@@ -823,6 +827,12 @@ hr{
         font-size: 2.5rem;
         font-weight: 800;
     }
+    .meet-section-img{
+        grid-template-columns: repeat(1, 1fr);
+     }
+    #img-none{
+        display: none;
+     }
     .hidden{
         display: block;
     }
@@ -834,6 +844,10 @@ hr{
     }
     .challenge-card-container{
         flex-direction: column;
+    }
+    .challenge-content h2{
+        font-size: 2.8rem;
+        margin: 0 15px;
     }
     .challenge-section :hover .discount{
         display: none;
