@@ -824,10 +824,10 @@ hr{
     .calculate-input-section input, select{
         width: 45%;
         height: 48px;
-        margin: 8px;
+        margin: 7px;
     }
     .select-activity{
-        width: 97%;
+        width: 96%;
     }
     .calculate-input-section button{
         margin: 30px 0px 43px 25px;
@@ -887,7 +887,7 @@ hr{
         margin-bottom: 15px;
      }
      hr{
-        max-width: 354px;
+        max-width: 400px;
         margin: 70px 20px 50px 30px;
      }
      .copyright{
