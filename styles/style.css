@@ -484,6 +484,8 @@ th{
 }
 .calculate-input-section select{
     color: rgba(255, 255, 255, 0.6);
+    padding: 12px 40px 12px 15px;
+    border-right: 16px solid transparent;
 }
 .select-activity select{
     color: rgba(255, 255, 255, 0.6);
@@ -700,7 +702,7 @@ th{
     color: rgb(230, 83, 60);
     font-size: 4.37rem;
     font-weight: 800;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 35px;
 }
 .footer-first-part p{
