@@ -17,7 +17,7 @@ html{
     border: 1px solid black;
     background-image: linear-gradient(to bottom, rgba(2, 2, 2, 0.894) 20%, rgba(14, 12, 12, 0.898)60%, rgb(2, 2, 2) 100%);
 }
-/* navbar section */
+/* navbar part */
 .navbar-section{
     max-width: 1060px;
     margin: 0 auto;
@@ -58,16 +58,16 @@ html{
 .bars{
     display: none;
 }
-/* banner section */
+/* banner part */
 .banner-container{
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
     gap: 150px;
-    margin-top: 80px;
 }
 .banner-content{
     max-width: 600px;
+    margin-top: 80px;
 }
 .banner-content h2{
     color: rgb(255, 255, 255);
@@ -105,13 +105,14 @@ html{
     margin-left: 10px;
 }
 .banner-img{
+    margin-top: 30px;
     position: relative;
 }
 .banner-img img{
     width: 100%;
 }
 .first-shape{
-    width: 180px;
+    width: 190px;
     height: 98px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -135,7 +136,7 @@ html{
     margin-left: 23px;
 }
 .second-shape{
-    width: 190px;
+    width: 200px;
     height: 96px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -769,8 +770,10 @@ hr{
      .banner-container{
         flex-direction: column;
         margin: 30px;
-        margin-top: 40px;
-        gap: 20px;
+        gap: 1px;
+     }
+     .banner-content{
+        margin-top: 30px;
      }
      .banner-content h2{
         width: 85%;
@@ -791,7 +794,7 @@ hr{
         display: none;
      }
      .first-shape{
-        width: 150px;
+        width: 160px;
         height: 85px;
         top: 10%;
         left: 55%;
@@ -802,7 +805,7 @@ hr{
         margin-left: 23px;
     }
     .second-shape{
-        width: 180px;
+        width: 170px;
         height: 85px;
         top: 43%;
         left: 5%;
