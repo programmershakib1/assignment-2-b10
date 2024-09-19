@@ -1059,11 +1059,11 @@ hr{
     }
     .banner-content{
         max-width: 600px;
-        margin: 80px 0px 0px 80px;
+        /* margin: 80px 0px 0px 80px; */
     }
     .banner-img{
         max-width: 600px;
-        margin: 0px 0px 0px 200px;
+        /* margin: 0px 0px 0px 150px; */
     }
     .banner-img img{
         width: 80%;
